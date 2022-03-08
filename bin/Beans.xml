@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        
+        <bean id = "q1" class = "com.saif.Question">
+        
+        <property name="id" value = "101"></property>
+        <property name="name" value = "What is Java?"></property>
+        <property name = "answers">
+        <map>
+        <entry key = "Java is a programming language." value = "Saif"></entry>
+        <entry key = "Java is a platform." value = "Sharif"></entry>
+        <entry key = "Java is an Island of Indonesia." value = "Konka"></entry>
+        </map>
+        
+        </property>
+        
+        </bean>
+        
+        
+        </beans>
